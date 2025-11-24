@@ -10,10 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-/**
- *
- * @author bouchaib.lemaire
- */
+
 // Mappage de la Servlet pour être le point d'entrée (racine) et l'URL /infos
 @WebServlet(urlPatterns = {"/infos", "/"}) 
 public class InfosUserServlet extends HttpServlet {
